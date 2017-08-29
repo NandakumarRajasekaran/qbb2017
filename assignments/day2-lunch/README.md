@@ -10,7 +10,7 @@ For each question, submit **two** files to your GitHub repository:
 Here's one way to catch the output:
 
 ```shell
-/Users/cmdb/qbb2017-answers/day2-lunch $ ./day2-exercise2.py > day2-exercise2.out
+/Users/cmdb/qbb2017-answers/day2-lunch $ cat day1_output.sam | ./day2-exercise2.py > day2-exercise2.out
 ```
 
 **Basic Exercises**
