@@ -29,6 +29,20 @@ parse.
 Parse this file, and output a new file with two tab separated columns, the
 first containg the FlyBase ID and the second the Uniprot ID (AC).
 
+> Hint: running `split` without specifying a delimiter splits on "whitespace" 
+> by default. For example:
+> ```python
+  s = "first second\tthird\t\t\tfourth"
+  print "Split on space:",      s.split(" ")
+  print "Split on tab:",        s.split("\t")
+  print "Split on whitespace:", s.split()
+  ```
+> ```shell
+  Split on space: ['first', 'second\tthird\t\t\tfourth']
+  Split on tab: ['first second', 'third', '', '', 'fourth']
+  Split on whitespace: ['first', 'second', 'third', 'fourth']
+  ```
+
 ## 2. Identifier mapping
 
 Write a python script for identifier mapping. Your script should take as input
