@@ -17,7 +17,7 @@ Here's one way to catch the output:
 
 1. Count number of alignments
 2. Count number of alignments that match perfectly to the genome
-  - HINT: This is encoded in one of the sam format's optional fields
+  - HINT: This is encoded in one of the sam format's [optional fields](https://samtools.github.io/hts-specs/SAMtags.pdf)
 3. Count number of reads that map to exactly one location in the genome
   - HINT: number of hits
 4. For the first 10 alignments, print just the column indicating which chromosome a given read aligns to
