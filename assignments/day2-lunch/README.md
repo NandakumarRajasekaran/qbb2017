@@ -27,7 +27,7 @@ Here's one way to catch the output:
 
 **Advanced Exercises**
 
-1. Count the number of spliced reads aligning to the forward strand, reverse strand, and how many are unspliced
+<!-- 1. Count the number of spliced reads aligning to the forward strand, reverse strand, and how many are unspliced -->
 1. Count number of reads that start their alignment on chromosome 2L between base 10000 and 20000 (inclusive)
 1. How many reads map to the reverse strand?
   - HINT 1: sam flag 0x10 bit
