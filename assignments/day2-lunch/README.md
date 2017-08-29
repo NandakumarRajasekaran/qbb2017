@@ -17,23 +17,23 @@ Here's one way to catch the output:
 
 1. Count number of alignments
 2. Count number of alignments that match perfectly to the genome
-  - HINT: This is encoded in one of the sam format's [optional fields](https://samtools.github.io/hts-specs/SAMtags.pdf)
+    - HINT: This is encoded in one of the sam format's [optional fields](https://samtools.github.io/hts-specs/SAMtags.pdf)
 3. Count number of reads that map to exactly one location in the genome
-  - HINT: number of hits
+    - HINT: number of hits
 4. For the first 10 alignments, print just the column indicating which chromosome a given read aligns to
-  - HINT: .split()
+    - HINT: .split()
 5. Calculate average MAPQ score
-  - HINT: think about string and numeric type conversions
+    - HINT: think about string and numeric type conversions
 
 **Advanced Exercises**
 
 <!-- 1. Count the number of spliced reads aligning to the forward strand, reverse strand, and how many are unspliced -->
 1. Count number of reads that start their alignment on chromosome 2L between base 10000 and 20000 (inclusive)
 1. How many reads map to the reverse strand?
-  - HINT 1: sam flag 0x10 bit
-  - HINT 2: stackoverflow.com/questions/2591483/getting-a-specific-bit-value-in-a-byte-string
+    - HINT 1: sam flag 0x10 bit
+    - HINT 2: stackoverflow.com/questions/2591483/getting-a-specific-bit-value-in-a-byte-string
 1. Determine how many reads have an average quality score >30
-  - HINT 1: fastq wiki phred+33
-  - HINT 2: stackoverflow.com/questions/227459/ascii-value-of-a-character-in-python
+    - HINT 1: fastq wiki phred+33
+    - HINT 2: stackoverflow.com/questions/227459/ascii-value-of-a-character-in-python
 1. Count the number of indels of length 1, 2, 3, 4, greater than 4
-  - HINT: This is encoded in the "CIGAR" field
+    - HINT: This is encoded in the "CIGAR" field
